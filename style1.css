@@ -1,0 +1,22 @@
+div{
+width: 100px;
+height: 100px;
+background-color: rgb(71, 34, 146);
+}
+
+@media (max-width: 400px){
+    .div1{
+        background-color: rgb(17, 135, 115);
+        width: 50px;
+        height: 50px;
+    }
+
+    .div2{
+        
+        background-color: rgb(70, 202, 114);
+        
+    }
+    .div3{
+        background-color: rgb(227, 98, 201);
+    }
+}
