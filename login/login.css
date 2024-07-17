@@ -1,0 +1,77 @@
+:root {
+    --azul: rgb(109, 109, 230);
+    --cinza: rgba(128, 128, 128, 0.801);
+}
+
+* {
+    margin: 50;
+    padding: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  
+}
+
+body, html {
+    height: 100%; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(67, 186, 186)
+}
+
+button {
+    background: rgb(45, 193, 183);
+    color: rgb(248, 240, 240);
+    width: 50px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background: rgb(192, 160, 198);
+     
+    }
+    
+}
+
+button:active {
+    transform: scale(1.05);
+}
+
+input {
+    padding: 7px;
+}
+
+.container {
+    width: 20%;
+    height: 40%;
+    padding: 30px 100px;
+    background: rgb(253, 154, 207);
+    box-shadow: 0 0 10px rgba(117, 60, 143, 0.801);
+    gap: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.paragrafo {
+    font-size:medium;
+}
+
+.botao-sair {
+    width: 50px;
+}
+
+.botao-sair:hover {
+    background:rgb(190, 160, 198);
+}
+
+.botao-sair:active {
+    transform: scale(1.05);
+}
